@@ -1,0 +1,54 @@
+
+.Container {
+    padding-top: 30px;
+    display: grid;
+}
+
+.Inicio {
+    margin-top: 30px !important;
+    padding-top: 30px !important;
+    margin: auto;
+    width: 600px;
+}
+.Coluna-1{
+    /* grid-column: 1 / span 2; */
+    grid-row: 1;
+}
+.Coluna-2{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.Inicio h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.Inicio select {
+    justify-self: center;
+    color: black;
+    height: 30px;
+    width: 200px !important;
+    border-radius: 5px;
+}
+
+.Inicio option {
+    color: black;
+}
+.Inicio label {
+    display: block;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.Inicio p {
+    text-align: left !important;
+}
+
+ul{
+    display: inline;
+    list-style-type: none;
+
+}

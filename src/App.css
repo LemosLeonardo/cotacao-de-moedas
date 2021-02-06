@@ -12,9 +12,16 @@ body {
   /* IE10+ */
   user-select: none;
   /* Possível implementação no futuro */
-
+  
 }
 
 * {
   color: white;
+  font-family:'Inconsolata' ;
+}
+
+
+@font-face{
+  src: url('./fonts/Inconsolata-Light.ttf');
+  font-family: 'Inconsolata', monospace;
 }

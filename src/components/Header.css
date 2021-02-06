@@ -4,12 +4,36 @@
     left: 0;
     top: 0;
     width: 100%;
+    padding: 10px;
 }
 
 .Header img {
-    width: 50px;
+    width: 40px;
     animation: rotation 3s infinite linear;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
+}
+
+.Header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Header li {
+    float: left;
+}
+
+.Header li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Header li a:hover {
+    background-color: rgba(17, 17, 17, 0.233);
 }
 
 @keyframes rotation {
