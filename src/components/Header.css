@@ -1,0 +1,19 @@
+.Header {
+    background-color: #283655;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.Header img {
+    width: 50px;
+    animation: rotation 3s infinite linear;
+    padding: 10px;
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotatey(360deg)
+    }
+}

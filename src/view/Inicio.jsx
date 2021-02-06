@@ -4,7 +4,7 @@ function Inicio() {
     return (
         <div>
 
-INICIO
+            INICIOa
         </div>
     )
 }
