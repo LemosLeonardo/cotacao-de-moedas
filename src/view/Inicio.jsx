@@ -3,7 +3,6 @@ import axios from 'axios'
 import './Inicio.css'
 
 const MOEDAS = "https://economia.awesomeapi.com.br/json/"
-// const MOEDAS = "http://api.tvmaze.com/search/shows?q=girls"
 
 const api = axios.create({
     baseURL: MOEDAS
