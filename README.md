@@ -2,7 +2,7 @@
 Esta aplicação foi desenvolvida em React Js com a finalidade de obter a cotação das moedas através do consumo de uma API externa
 (<a href="https://docs.awesomeapi.com.br/api-de-moedas" target=_parent rel=noopener >api-de-moedas</a>)
 
-<img src="https://github.com/LemosLeonardo/cotacao-de-moedas/blob/main/src/images/app-cotacao-moedas.JPG?raw=true" width="600px" />
+<img src="https://github.com/LemosLeonardo/cotacao-de-moedas/blob/main/src/images/app-cotacao-moedas.JPG?raw=true" width="100%" />
 
 ## Como utilizar
 Para utilizar esta aplicação, você deverá seguir estes passos:
